@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "change",
+  "id": "renderownlabel",
   "version": "${version}",
-  "name": "CHANGE",
+  "name": "Render Own Label",
   "description": "",
   "authors": [],
   "contact": {},
   "license": "Unlicense",
-  "icon": "assets/change/icon.png",
+  "icon": "assets/renderownlabel/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.github.neapovil.change.Change"]
+    "client": ["com.github.neapovil.renderownlabel.RenderOwnLabel"]
   },
   "mixins": [
-    "CHANGE.mixins.json"
+    "renderownlabel.mixins.json"
   ],
   "depends": {
     "fabricloader": "*",
